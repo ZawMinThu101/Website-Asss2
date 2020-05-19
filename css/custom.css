@@ -1,0 +1,178 @@
+body{
+	background-color: #F2EBE2
+}
+
+.navbar {
+
+	background-color: transparent;
+	color: white;
+	transition: top 0.3s;
+}
+
+.navlink{
+
+
+}
+
+
+.card-title{
+
+	font-family: serif;
+	font-size: 60px;
+
+}
+
+.cafebooth{
+
+	font-family:'Indie Flower', cursive;
+	float: right;
+
+
+font-size:16px;
+    color:#FFF;
+      transition: all 0.3s ease-in;
+      text-decoration:none;
+
+}
+
+.cafebooth:hover{
+
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 5px 5px 20px yellow;
+}
+
+.bakerybooth{
+
+	font-family:'Indie Flower', cursive;
+	float: left;
+	font-size:16px;
+    color:#FFF;
+      transition: all 0.3s ease-in;
+      text-decoration:none;
+
+
+}
+	
+.bakerybooth:hover{
+
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 5px 5px 20px yellow;
+}
+
+
+
+.quote{
+text-decoration: none;
+	margin: auto;
+font-size: 50px;
+
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.quote:hover{
+
+	text-decoration: none;
+}
+
+.left{
+width:40%;
+			height: 400px;
+			
+			text-align: justify;
+			color:black;
+			float: left;
+
+}
+
+.right{
+			width: 40%;
+			height: 400px;
+		
+			text-align: justify;
+		
+			float: right;
+
+	}
+
+.leftright{
+
+			width: 1000px;
+			height: 600px;
+		
+			margin: 0 auto;
+
+			}
+
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 220px;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.footer-height{
+
+	height: 450px;
+	text-align: center;
+	padding: 50px;
+	color: #ddd;
+
+}
+
+.carouselExampleControls{
+
+	width: 100px;
+	height: 300px;
+}
+
+.carousel{
+
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	float: left;
+	top: -250px;
+	left: -300px;
+}
+
+.carouselss{
+
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	float: right;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+}
+
+.foot{
+	width: 100%;
+	height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

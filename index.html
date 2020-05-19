@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+ <link href="Indie_Flower/css?family=Indie+Flower&display=swap" rel="stylesheet">
+ <link href="Swanky/SwankyandMooMoo.ttf/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+ <link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <script defer src="fontawesome/js/all.js"></script> <!--load all styles -->
+  <!-- Our project just needs Font Awesome Solid + Brands -->
+  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome/css/brands.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet">
+  <!-- Our project just needs Font Awesome Solid + Brands -->
+    <script defer src="fontawesome/js/brands.js"></script>
+    <script defer src="fontawesome/js/solid.js"></script>
+    <script defer src="fontawesome/js/fontawesome.js"></script>
+
+
+ <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+  
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link href="css/css.css/css?family=Cookie" rel="stylesheet" type="text/css">
+  
+	<!--load all styles -->
+
+    <title>Home</title>
+
+    <style type="text/css">
+    *{
+
+      margin: 0;
+      padding: 0;
+    }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+*{box-sizing:border-box;}
+
+body {
+  font-family: 'open sans', helvetica, arial, sans;
+background:url(http://farm8.staticflickr.com/7064/6858179818_5d652f531c_h.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@grey:#2a2a2a;
+@blue:#1fb5bf;
+.log-form {
+  width: 40%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+  
+  box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+  
+  @media(max-width: 40em){
+    width: 95%;
+    position: relative;
+    margin: 2.5% auto 0 auto;
+    left: 0%;
+  -webkit-transform: translate(0%,0%);
+-moz-transform: translate(0%,0%);
+-o-transform: translate(0%,0%);
+-ms-transform: translate(0%,0%);
+transform: translate(0%,0%);
+  }
+  
+  form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+  }
+  
+  h2 {
+    width: 100%;
+    color: lighten(@grey, 20%);
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background:@grey;
+    width: 100%;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    box-shadow:inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid darken(@grey, 5%);
+    //text-shadow: 0px 1px 1px darken(@grey, 5%);
+    margin: 0;
+    font-weight: 200;
+  }
+  
+  input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: #757575;
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .btn {
+    display: inline-block;
+    background: @blue;
+    border: 1px solid darken(@blue, 5%);
+    padding: .5em 2em;
+    color: white;
+    margin-right: .5em;
+    box-shadow: inset 0px 1px 0px fadeout(white, 80%); 
+    &:hover {
+      background: lighten(@blue, 5%);
+    }
+    &:active {
+      background: @blue; 
+      box-shadow: inset 0px 1px 1px fadeout(black, 90%); 
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .forgot {
+    color: lighten(@blue, 10%);
+    line-height: .5em;
+    position: relative;
+    top: 2.5em;
+    text-decoration: none;
+    font-size: .75em;
+    margin:0;
+    padding: 0;
+    float: right;
+    
+    &:hover {
+      color:darken(@blue, 5%);
+    }
+    &:active{ 
+    }
+  }
+  
+}
+
+
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+#hi {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hi:hover {opacity: 0.7;}
+
+
+
+#third {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#third:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+</style>  
+   
+  </head>
+
+  <body>
+
+
+<div class="card bg-dark text-white">
+  <img class="card-img" src="image/cover.jpg" alt="Cover image" width="100%" height="650">
+  <div class="card-img-overlay">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html"><font color="#FFFFFF">Mr Coffee</font></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><font color="#FFFFFF">Home </font> <span class="sr-only">
+		<font color="#FFFFFF">(current)</font></span></a><font color="#FFFFFF">
+		</font>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font color="#FFFFFF">Menu</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="cake.html">Cakes</a>
+          <a class="dropdown-item" href="coffee.html">Coffee</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Special.html">Special Ocassion Cakes</a>
+        </div>
+      </li>
+   
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html"><font color="#FFFFFF">Contact Us</font></a><font color="#FFFFFF">
+    </font>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="about.html"><font color="#FFFFFF">About Us</font></a><font color="#FFFFFF">
+    </font>
+      </li>
+
+      
+       <li class="nav-item">
+        <a class="nav-link" href="faq.html"><font color="#FFFFFF">FAQ</font></a><font color="#FFFFFF">
+    </font>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html"><font color="#FFFFFF">Cart</font></a><font color="#FFFFFF">
+		</font>
+      </li>
+     
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <h1 class="card-title"><a href="index.html"><font color="#FFFFFF">Mr. Coffee Cafe & Bakery</a></font></h1>
+    <br>
+    <div class="quote" align="center">
+   
+    
+    <br>
+    <p><a href="index.html"><font color="#FFFFFF">LIFE IS SHORT, ENJOY EVERY TASTE OF THE SIP!!!</a></font><p></div>
+    <br><br><br><br><br><br>
+    <div class="bakerybooth">
+    <a href="cake.html"><h3><font color="#FFFFFF">Order from our bakery booth</font></h3></div></a>
+    <a href="coffee.html"><div class="cafebooth"><h3><font color="#FFFFFF">Order from our cafe booth</font></h3></div></a>
+  
+
+
+ 
+  </div>
+</div>
+<div class="leftright" align="center">
+<br>
+<div class="left">
+  <p style="font-size: 25px"><b>WE BELIEVE IN OUR FOOD</b></p>
+  <p>We cook and bake items that we would want to eat. Everything we serve is made to the standards and quality that we would want to serve to our own families.</p>
+  <p style="font-size: 20px" align="left">WE PRIDE OURSELVES ON THE CRAFTSMANSHIP OF OUR FOOD. </p>
+  <p>Breakfast, coffee, lunch, dessert, gelato - we've got it all. We encourage spending a whole day at one of our cafes. Order a coffee when you come in, one of our egg sandwiches (we call them smashers) for breakfast, a salad for lunch and our hearty burgers for dinner.</p>
+  <p>And as your night comes to a close be certain to try any one (or more!) of our award -winning desserts including: brownies, cookies, lemon bars, cheesecake, mousse, gelato - and much, much more! </p>
+  <p><i><b>“OUR GOAL IS TO CREATE A DINING EXPERIENCE FOR OUR CUSTOMERS THAT WE WOULD WANT FOR OURSELVES, WITH A HIGHLY QUALIFIED AND SATISFIED STAFF, OFFERING THE HIGHEST QUALITY COFFEE, FOOD, DESSERTS, AND MORE!”</i></b></p>
+</div>
+
+
+
+<div class="right">
+  <p style="font-size: 25px"><b> OUR STORY </p></b>
+  <p style="font-size: 20px"> CAFE & BAKERY DESSERTS </p>
+  <p> Zaw Min Thu and his partner Glenn founded Mara’s Café & Bakery in 1984 at the urging of family and friends. Right from the start, Zaw Min Thu began offering customers the highest quality, delectable desserts made fresh in our own bakery, from traditional family recipes. Glenn, a coffee perfectionist, distinguished a unique line of roasted and flavored coffee products using a small industrial roaster.  </p>
+  <p>After nearly twenty years of establishing a reputation for serving up the best coffee and desserts in town, Zaw Min Thu knew it was time to expand not only the business, but the menu as well.</p>
+
+  <div class="Location">
+    <h3><b>SHOP BRANCHES</b></h3>
+    <p>U Wisara Road, at the corner of the 101 street, Yangon, Myanmar. Phone Number: +9568562566 </p>
+    <p>Minigone (main branch), at the corner of the 11 street, Yangon, Myanmar. Phone Number: +95687766 </p>
+ <p>Yuzana Plaza, Minglar Taungnyut Township, Yangon, Myanmar. Phone Number: +01565556 </p>
+
+
+  </div>
+
+</div>
+</div>
+
+<div class="new coffee" align="center">
+<h2>Brand New Coffee and Cakes designed by the popular artist</h2>
+<h3>Relax, Drink and Chat!!</h3>
+
+<div class="container" align="center">
+  <img src="image/sip.jpg" alt="Nature" style="width:700px; height: 450px">
+  <div class="text-block">
+    <h4>Relieve Stress</h4>
+    <p>Enjoy every sip you take!!</p>
+  </div>
+</div>
+
+  </div>
+
+<br>
+<br>
+
+<div>
+  <div style="height: 80px; background-color: #33313b; text-align: center; padding: 25px; font-size: 20pt">
+  <font color="#e3c4a8"> Most bought item</font>
+  </div>
+  <br>
+
+<!-- Card -->
+
+<div>
+<div class="card-deck">
+  <div class="card">
+  <img id="myImg" class="card-img-top" src="image/5.jpg" alt="Black Forest Gateau" style="width:100%;" height="400px">
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+    
+    <div class="card-body">
+
+      <p class="card-title" style="font-size: 35px">Black Forest Gateau</p>
+      <p class="card-text">Impress your guests with this chocolate cherry layered cream cake - a revamped version of a retro classic.</p>
+      <p class="card-text"><small class="text-muted">view more</small></p>
+    </div>
+  </div>
+
+
+  
+  <div class="card">
+    <img id="hi" class="card-img-top" src="image/coffee.jpg" alt="Arusha" style="width:100%;" height="400px">
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption1"></div>
+</div>
+
+    <div class="card-body">
+    
+      <p class="card-title" style="font-size: 35px">Arusha</p>
+      <p class="card-text">It is either a Typica variety or a French Mission.</p>
+      <p class="card-text"><small class="text-muted">view more</small></p>
+    </div>
+  </div>
+  <div class="card">
+  <img id="third" class="card-img-top" src="image/7.jpg" alt="Coffee Cake with Mocha Frosting" style="width:100%;" height="400px">
+   <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption1"></div>
+</div>
+    
+    <div class="card-body">
+      <p class="card-title" style="font-size: 35px">Coffee Cake with Mocha Frosting</p>
+      <p class="card-text">This mocha cake is moist, fluffy and packed with chocolate and coffee flavor. Between each layer you’ll find a mocha buttercream, chocolate ganache and chopped chocolate covered espresso bean</p>
+      <p class="card-text"><small class="text-muted">view more</small></p>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+
+</div>
+
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+      <h3>Mr Coffee <span>Cafe Bakery</span></h3>
+      <!--  <img src="hard.jpg" height="200px" width="200px"> -->
+
+        <p class="footer-links">
+           <a href="index.html">Home</a>
+          ·
+          <a href="menu.html">Menu</a>
+          ·
+          
+          <a href="about.html">About Us</a>
+          ·
+          <a href="faq.html">Faq</a>
+          ·
+          <a href="contact.html">Contact Us</a>
+          <a href="cart.html">Cart</a>
+        </p>
+
+        <p class="footer-company-name">Cafe & Bakery &copy; 2013</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Minigone</span> Yangon, Myanmar</p>
+
+        </div>
+        <br>  
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+95 95595299</p>
+        </div>
+        <br>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:cafe&bakery@company.com">support@company.com</a></p>
+        </div>
+<br>
+        <div>
+           <i class="fa fa-envelope"></i>
+          <a href="#" onclick="myFunction()">Terms and condition</a>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          The copany was established on 2000 and we got our copyright reserved in 2013
+
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+  alert("By continuing you are accepting that we use cookies and These Website Standard Terms and Conditions written on this webpage shall manage your sue of the website. These terms will be applied fully and affect to your use of this website. by using this website, you agreed to accept all terms and conditionbs written in here. ");
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<script>
+$(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("hi");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("third");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  
+
+  </font>
+  </body>
+</html>
